@@ -6,5 +6,5 @@ const props = defineProps({
 </script>
 
 <template>
-    <v-btn variant="outlined" :to="Link">{{ name }}</v-btn>
+    <v-btn variant="outlined" :to="link">{{ name }}</v-btn>
 </template>
